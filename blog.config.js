@@ -116,7 +116,7 @@ const BLOG = {
   ],
 
   // 更新无衬线字体列表
-  FONT_SANS: [
+  FONT_SANS: [/*
     '"JetBrains Mono"',
     '"LXGW WenKai"',
     '-apple-system',
@@ -126,18 +126,18 @@ const BLOG = {
     '"Noto Sans SC"',
     'Arial',
     'sans-serif',
-    '"Apple Color Emoji"'
+    '"Apple Color Emoji"'*/
   ],
 
   // 更新衬线字体列表
-  FONT_SERIF: [
+  FONT_SERIF: [/*
     '"LXGW WenKai"',
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
     'Times',
     'serif',
-    '"Apple Color Emoji"'
+    '"Apple Color Emoji"'*/
   ],
 
   FONT_AWESOME:
