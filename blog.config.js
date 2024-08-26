@@ -118,8 +118,7 @@ const BLOG = {
   // 更新无衬线字体列表
   FONT_SANS: [
     '"JetBrains Mono"',
-    '"heti"',
-    '"LXGW WenKai"',
+    '"LXGW WenKai Screen"',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Microsoft YaHei"',
@@ -133,7 +132,7 @@ const BLOG = {
   // 更新衬线字体列表
   FONT_SERIF: [
     '"heti"',
-    '"LXGW WenKai"',
+    '"LXGW WenKai Screen"',
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
