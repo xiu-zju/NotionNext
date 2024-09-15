@@ -220,7 +220,7 @@ PRISM_THEME_LIGHT_PATH:
   'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-material-light.css', // 浅色模式主题（GitHub 风格）
 PRISM_THEME_DARK_PATH:
   process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH ||
-  'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-atom-dark.css', // 深色模式主题（One Dark Pro 风格）
+  'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-material-dark.css', // 深色模式主题（One Dark Pro 风格）
 
   CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || true, // 代码左上角显示mac的红黄绿图标
   CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || false, // 是否显示行号
