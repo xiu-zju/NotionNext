@@ -131,7 +131,7 @@ const BLOG = {
 
   // 更新衬线字体列表
   FONT_SERIF: [
-    '"heti"',
+    '"JetBrains Mono"',
     '"LXGW WenKai Screen"',
     '"Noto Serif SC"',
     'SimSun',
