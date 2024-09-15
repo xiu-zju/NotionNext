@@ -217,7 +217,7 @@ const BLOG = {
 PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换；开启后将显示以下两个主题
 PRISM_THEME_LIGHT_PATH:
   process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH ||
-  'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-vs.css', // 浅色模式主题（GitHub 风格）
+  'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-material-light.css', // 浅色模式主题（GitHub 风格）
 PRISM_THEME_DARK_PATH:
   process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH ||
   'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-atom-dark.css', // 深色模式主题（One Dark Pro 风格）
