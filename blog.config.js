@@ -106,46 +106,7 @@ const BLOG = {
 
   // END ************网站字体**************** */
   // START ************网站字体*****************
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
-
-  // 更新字体CSS为你自己的CSS
-  FONT_URL: [
-    'https://cdn.tonycrane.cc/utils/katex.min.css',
-    'https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css',
-    'https://cdn.tonycrane.cc/lxgw/lxgwscreen.css'
-  ],
-
-  // 更新无衬线字体列表
-  FONT_SANS: [
-    '"JetBrains Mono"',
-    '"LXGW WenKai Screen"',
-    '-apple-system',
-    'BlinkMacSystemFont',
-    '"Microsoft YaHei"',
-    '"Segoe UI"',
-    '"Noto Sans SC"',
-    'Arial',
-    'sans-serif',
-    '"Apple Color Emoji"'
-  ],
-
-  // 更新衬线字体列表
-  FONT_SERIF: [
-    '"JetBrains Mono"',
-    '"LXGW WenKai Screen"',
-    '"Noto Serif SC"',
-    'SimSun',
-    '"Times New Roman"',
-    'Times',
-    'serif',
-    '"Apple Color Emoji"'
-  ],
-
-  FONT_AWESOME:
-    process.env.NEXT_PUBLIC_FONT_AWESOME_PATH ||
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
-// END ************网站字体*****************
-
+  
 
   // 路径和组件映射，不同路径分别展示主题的什么组件
   LAYOUT_MAPPINGS: {
@@ -222,9 +183,9 @@ PRISM_THEME_DARK_PATH:
   process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH ||
   'https://cdn.jsdelivr.net/npm/prism-themes@1.7.0/themes/prism-material-dark.css', // 深色模式主题（One Dark Pro 风格）
 
-  CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || true, // 代码左上角显示mac的红黄绿图标
+  CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || false, // 代码左上角显示mac的红黄绿图标
   CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || false, // 是否显示行号
-  CODE_COLLAPSE: process.env.NEXT_PUBLIC_CODE_COLLAPSE || true, // 是否支持折叠代码框
+  CODE_COLLAPSE: process.env.NEXT_PUBLIC_CODE_COLLAPSE || false, // 是否支持折叠代码框
   CODE_COLLAPSE_EXPAND_DEFAULT:
     process.env.NEXT_PUBLIC_CODE_COLLAPSE_EXPAND_DEFAULT || true, // 折叠代码默认是展开状态
 
