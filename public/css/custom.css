@@ -6,3 +6,70 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+/* 加载 LXGW WenKai 常规体 */
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url('/fonts/LXGWWenKai-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url('/fonts/LXGWWenKai-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGW WenKai';
+    src: url('/fonts/LXGWWenKai-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+/* 加载 LXGW WenKai 等宽体 */
+@font-face {
+    font-family: 'LXGW WenKai Mono';
+    src: url('/fonts/LXGWWenKaiMono-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGW WenKai Mono';
+    src: url('/fonts/LXGWWenKaiMono-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGW WenKai Mono';
+    src: url('/fonts/LXGWWenKaiMono-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+/* 全局字体设置 */
+body {
+    font-family: 'LXGW WenKai', sans-serif;
+    font-weight: 400; /* 默认使用 Regular 字重 */
+}
+
+/* 标题使用 Medium 字重 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'LXGW WenKai', sans-serif;
+    font-weight: 500; /* Medium */
+}
+
+/* 代码块使用 LXGW WenKai Mono 等宽体 */
+code {
+    font-family: 'LXGW WenKai Mono', monospace;
+    font-weight: 400; /* Regular */
+}
+
+/* 强调文本使用 Medium 字重 */
+strong {
+    font-weight: 500; /* Medium */
+}

@@ -105,46 +105,34 @@ const BLOG = {
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
   // END ************网站字体**************** */
-  // START ************网站字体*****************
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
-
+  
   // 更新字体CSS为你自己的CSS
-  FONT_URL: [
-    'https://cdn.tonycrane.cc/utils/katex.min.css',
-    'https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css',
-    'https://cdn.tonycrane.cc/lxgw/lxgwscreen.css'
-  ],
+FONT_URL: [
+],
 
-  // 更新无衬线字体列表
-  FONT_SANS: [
-    '"JetBrains Mono"',
-    '"LXGW WenKai Screen"',
-    '-apple-system',
-    'BlinkMacSystemFont',
-    '"Microsoft YaHei"',
-    '"Segoe UI"',
-    '"Noto Sans SC"',
-    'Arial',
-    'sans-serif',
-    '"Apple Color Emoji"'
-  ],
+// 更新无衬线字体列表
+FONT_SANS: [
+  'LXGW WenKai', // 使用本地加载的 LXGW WenKai
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'Microsoft YaHei',
+  'Segoe UI',
+  'Noto Sans SC',
+  'Arial',
+  'sans-serif',
+  'Apple Color Emoji'
+],
 
-  // 更新衬线字体列表
-  FONT_SERIF: [
-    '"JetBrains Mono"',
-    '"LXGW WenKai Screen"',
-    '"Noto Serif SC"',
-    'SimSun',
-    '"Times New Roman"',
-    'Times',
-    'serif',
-    '"Apple Color Emoji"'
-  ],
-
-  FONT_AWESOME:
-    process.env.NEXT_PUBLIC_FONT_AWESOME_PATH ||
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
-// END ************网站字体*****************
+// 更新衬线字体列表
+FONT_SERIF: [
+  'LXGW WenKai', // 使用本地加载的 LXGW WenKai
+  'Noto Serif SC',
+  'SimSun',
+  'Times New Roman',
+  'Times',
+  'serif',
+  'Apple Color Emoji'
+],
 
 
   // 路径和组件映射，不同路径分别展示主题的什么组件
