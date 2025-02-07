@@ -108,11 +108,13 @@ const BLOG = {
   
   // 更新字体CSS为你自己的CSS
 FONT_URL: [
+  'https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css',
+  'https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css'
 ],
 
 // 更新无衬线字体列表
 FONT_SANS: [
-  'LXGW WenKai', // 使用本地加载的 LXGW WenKai
+  'LXGW WenKai',
   '-apple-system',
   'BlinkMacSystemFont',
   'Microsoft YaHei',
@@ -125,7 +127,7 @@ FONT_SANS: [
 
 // 更新衬线字体列表
 FONT_SERIF: [
-  'LXGW WenKai', // 使用本地加载的 LXGW WenKai
+  'LXGW WenKai',
   'Noto Serif SC',
   'SimSun',
   'Times New Roman',
